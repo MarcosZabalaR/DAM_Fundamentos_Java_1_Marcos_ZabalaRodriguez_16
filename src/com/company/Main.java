@@ -21,7 +21,7 @@ public class Main {
         if(year<0){
             System.out.println("El año es incorrecto.");
         }else{
-            if((month==2 && day>28||day<0)||(month==4 && day<0 || day>30)||(month==6 && day<0 || day>30)||(month==9 && day<0 || day>30)||(month==10 && day<0 || day>30)){
+            if((month==2 && day>28)||(month==4 && day>30)||(month==6 && day>30)||(month==9 && day>30)||(month==10 && day>30)|| day<0){
                 System.out.println("El día es incorrecto.");
             }else{
                 if(month<0||month>12){
